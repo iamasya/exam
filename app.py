@@ -15,7 +15,6 @@ def home():
     <p>Сума перших н членів арифметичної прогресії: {result}
     '''
 
-    
 def  sumOfAP(a,  d,  n):
     sum = (n / 2) * (2 * a + (n - 1) * d)
     return sum
