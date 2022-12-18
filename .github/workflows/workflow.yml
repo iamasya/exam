@@ -50,7 +50,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{secrets.DOCKER_USERNAME}}/p3_myapp:latest
+        tags: ${{secrets.DOCKER_USERNAME}}/exam:latest
     - name: Heroku login credentials
       run: |
           cat > ~/.netrc <<EOF
